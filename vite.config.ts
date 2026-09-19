@@ -18,6 +18,9 @@ export default defineConfig({
           'GM_xmlhttpRequest'
         ]
       },
+      build: {
+        systemjs: false,
+      },
     }),
   ],
 });
