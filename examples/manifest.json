@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "title": "PR Overlay Artifact Manifest",
+  "description": "External artifacts provided by AI Agent for PR review",
+  "tabs": [
+    {
+      "id": "architecture",
+      "title": "Architecture",
+      "icon": "📐",
+      "type": "markdown",
+      "contentUrl": "https://raw.githubusercontent.com/example-user/example-repo/main/examples/architecture/overview.md"
+    },
+    {
+      "id": "verification",
+      "title": "Verification Results",
+      "icon": "✅",
+      "type": "verification",
+      "data": {
+        "status": "passed",
+        "suiteName": "Playwright & Vitest Verification Suite",
+        "summary": "AI Agent performed end-to-end regression testing and component verification.",
+        "testsRun": 28,
+        "testsPassed": 28,
+        "testsFailed": 0,
+        "testsSkipped": 0,
+        "durationMs": 14200,
+        "media": [
+          {
+            "type": "image",
+            "url": "https://raw.githubusercontent.com/example-user/example-repo/main/examples/verification/screenshot.png",
+            "title": "Frontend Verification Screenshot",
+            "caption": "UI state after applying full component changes"
+          }
+        ],
+        "logsUrl": "https://github.com/example-user/example-repo/actions/runs/12345678"
+      }
+    }
+  ]
+}

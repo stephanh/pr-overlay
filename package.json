@@ -1,0 +1,23 @@
+{
+  "name": "pr-overlay",
+  "version": "1.0.0",
+  "description": "Greasemonkey/Tampermonkey userscript enriching GitHub PR UI with AI verification & architecture overlays",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1",
+    "vite-plugin-monkey": "^5.0.8",
+    "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "marked": "^15.0.7",
+    "mermaid": "^11.4.1"
+  }
+}
